@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+.chakra-switch__track {
+    background-color: rgb(30, 29, 29) !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.chakra-switch__track[data-checked] {
+    background-color: rgb(180, 241, 255) !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.chakra-switch__track[data-checked] span {
+    background-color: rgb(235, 204, 7);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+.photos {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.sociallink:hover {
+    color: rgb(72, 117, 180) !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.socialgit:hover {
+    color: rgb(33, 31, 31) !important;
+}
+
+.socialmed:hover {
+    color: rgb(18, 16, 14) !important;
+}
+
+.socialstack:hover {
+    color: rgb(244, 128, 36) !important;
+}
+
+.socialmail:hover {
+    color: rgb(212, 70, 56) !important;
+}
+
+.socialwhat:hover {
+    color: rgb(37, 211, 102) !important;
+}
+
+.socialtelg:hover {
+    color: rgb(0, 136, 204) !important;
+}
+
+.socialtwit:hover {
+    color: rgb(29, 161, 242) !important;
+}
+
+.socialface:hover {
+    color: rgb(24, 119, 242) !important;
+}
+
+.gitlink {
+    color: #8695a5;
+}
+
+.gitlink:hover {
+    text-decoration: underline !important;
+    color: #6e7b89;
+
+}
+
+.temp {
+    position: absolute;
+    top: 0;
+    left: 80px;
+    color: rgb(255, 249, 79);
+}
+
+.desc {
+    margin-top: -20px;
+
+
 }
